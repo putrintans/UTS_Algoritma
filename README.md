@@ -61,11 +61,11 @@ hasil (b) :
 
 1. Deklarasikan variabel input `N, X, T, Batas;` sebagai inputnya
 2. Memasukkan nilai **N** yaitu 2 angka terakhir NIM saya,  maka N adalah 68 
-   dan batasnya adalah 268 dari hasil jumlahan N + 140.
+   dan batasnya adalah 208 dari hasil jumlahan N + 100.
 3. Masukkan variabel **X** , dan **T** , **X** nya adalah 20 dan kemudian T adalah 68 (dari N).
 4. Dimana T kurang dari sama dengan batas, berarti tidak boleh melebihi batas
 5. Kemudian menghitung `X = X + 10;` , dan hasilnya 30 kemudian menghitung `T = T + X;` , 
-   hasilnya adalah 108.
+   hasilnya adalah 98.
 6. Kemudian cetak variabel T
 
 **Code Program**
@@ -84,7 +84,7 @@ int main ()
     cin >> N;
 
 
-    Batas = N + 140;
+    Batas = N + 100;
     X = 20;
     T = N;
 
@@ -103,4 +103,4 @@ int main ()
 ```
 
 hasilnya :
-![ing](https://raw.githubusercontent.com/putrintans/UTS_Algoritma/master/Soal2/Hasil2.png)
+![ing](https://raw.githubusercontent.com/putrintans/UTS_Algoritma/master/Soal2/Hasil%202.png)
